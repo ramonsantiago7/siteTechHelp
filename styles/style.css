@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e1e; /* cinza escuro */
+    color: #f1f1f1;
+}
+
+header {
+    background-color: #2e2e2e;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #00ff88; /* verde */
+}
+
+header h1 {
+    margin: 0;
+    color: #00ff88;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #f1f1f1;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: 0.4s;
+}
+
+nav a:hover {
+    color: #2e2e2e;
+    background-color: #00ff88;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+section {
+    padding: 40px;
+    max-width: 900px;
+    margin: 0 auto; /* Remove o margin-top padrão */
+}
+
+h2 {
+    color: #00ff88;
+    border-bottom: 2px solid #00ff88;
+    padding-bottom: 5px;
+    font-size: 26px;     
+    font-weight: 700;  
+    margin-top: 30px;    
+    margin-bottom: 15px;
+    text-align: left; 
+}
+
+#cursos {
+  margin: 20px auto 50px auto;
+  text-align: center;
+  max-width: 900px;
+  padding: 0 40px;
+}
+
+.cursos-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.curso-card {
+  background: #1e1e1e;
+  border: 2px solid #00ff88;
+  border-radius: 12px;
+  padding: 20px;
+  width: 280px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.5);
+  transition: transform 0.3s ease;
+}
+
+.curso-card:hover {
+  transform: translateY(-5px);
+}
+
+.curso-card h3 {
+  color: #00ff88;
+  margin-bottom: 10px;
+}
+
+.curso-card p {
+  font-size: 14px;
+  color: #ddd;
+  margin-bottom: 15px;
+}
+
+.btn {
+  display: inline-block;
+  background: #00ff88;
+  color: #1e1e1e;
+  padding: 10px 15px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #00cc6a;
+}
+
+.btn-principal {
+  margin-top: 30px;
+  font-size: 16px;
+  padding: 12px 20px;
+}
+
+
+.grid-table {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid black;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto 0 auto; /* Centraliza a tabela */
+}
+
+.grid-table div {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+.grid-table div a{
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+.header {
+    background-color: #00ff88;
+    color: #1e1e1e;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #2e2e2e;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    border-top: 3px solid #00ff88;
+}
+
+#contato a {
+    color: #f1f1f1;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+#contato a:hover {
+    color: #00ff88;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+html {
+    scroll-behavior: smooth;
+}
