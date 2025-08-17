@@ -176,19 +176,10 @@ html {
 }
 
 /* ===== Responsividade ===== */
-@media (max-width: 768px) {
-  header h1 {
-    font-size: 2rem;   /* menor em tablets */
-  }
-}
-
-@media (max-width: 480px) {
-  header h1 {
-    font-size: 1.6rem; /* menor ainda em celular */
-    line-height: 1.3;  /* melhora o espaçamento */
-  }
-
-  header p {
-    font-size: 1rem;   /* slogan reduzido */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.8rem; /* diminui no celular */
+    text-align: center; /* centraliza bonitinho */
+    line-height: 1.3;   /* ajusta espaçamento */
   }
 }
