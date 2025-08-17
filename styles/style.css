@@ -166,3 +166,11 @@ footer {
 html {
     scroll-behavior: smooth;
 }
+
+.informações {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #2e2e2e;
+    border-radius: 10px;
+    text-align: justify;
+}
