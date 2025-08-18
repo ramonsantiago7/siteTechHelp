@@ -44,6 +44,10 @@ section {
     margin: 0 auto; /* Remove o margin-top padrão */
 }
 
+#empresa{
+  padding: 0px 40px 40px 40px;
+}
+
 h2 {
     color: #00ff88;
     border-bottom: 2px solid #00ff88;
@@ -132,9 +136,30 @@ h2 {
     text-align: left;
 }
 
-.grid-table div a{
+.grid-table div a {     /* Efeito de “underline animado”*/
     color: #f1f1f1;
+    position: relative;
     text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.grid-table div a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 0%;
+    height: 2px;
+    background: #00ff88;
+    transition: width 0.5s ease;
+}
+
+.grid-table div a:hover {
+    color: #00ff88;
+}
+
+.grid-table div a:hover::after {
+    width: 100%;
 }
 
 .header {
