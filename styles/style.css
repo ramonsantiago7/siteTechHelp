@@ -257,6 +257,33 @@ nav a {
   white-space: nowrap; /* evita quebra de texto */
 }
 
+  .btn-home {
+    position: fixed;
+    top: 170px; /* afasta do topo */
+    right: 10px; /* afasta da lateral */
+    width: 55px;
+    height: 55px;
+    background-color: #00ff88; /* verde TechHelp */
+    color: #1e1e1e; /* cinza escuro */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 26px; /* tamanho do ícone */
+    font-weight: bold;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+    transition: 0.3s;
+    z-index: 9999;
+  }
+
+  .btn-home:hover {
+    background-color: #1e1e1e;
+    color: #00ff88;
+    box-shadow: 0 0 18px #00ff88;
+    transform: scale(1.15);
+  }
+
 
 /* ===== Responsividade ===== */
 @media (max-width: 700px) {
